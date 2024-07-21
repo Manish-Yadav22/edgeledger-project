@@ -8,101 +8,86 @@
   box-sizing: border-box;
 }
 
-:root{
-    --primary-color: #28a745;
-    --secondary-color: #0284d0;
+:root {
+  --primary-color: #28a745;
+  --secondary-color: #0284d0;
 }
 
-body{
-    font-family: "Open Sans", sans-serif;
-background: #fff;
-color: #333;
-line-height: 1.6;
-
-
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
 }
 
-ul,li{
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
 
-a{
-    color: #333;
-    text-decoration: none;
-
+a {
+  color: #333;
+  text-decoration: none;
 }
 
-h1, h2{
-    font-weight: 300;
-    line-height: 1.2;
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
 }
 
-p{
-    margin: 10px 0;
+p {
+  margin: 10px 0;
 }
 
-
-
-
-img{
-    width: 100%;
-    display: block;
+img {
+  width: 100%;
+  display: block;
 }
-
-
 
 /*------------------------- Utility Classes  -------------------------*/
 /* Text colors */
-.text-primary{
-    color: var(--primary-color);
+.text-primary {
+  color: var(--primary-color);
 }
 
-.text-secondary{
-    color: var(--secondary-color);
-
+.text-secondary {
+  color: var(--secondary-color);
 }
-
-
 
 /*------------------------- Utility Classes  -------------------------*/
 
-
-
-
 /* navbar  */
 
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-#navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    background-color: #333;
-    color: #fff;
-    opacity: 0.8;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 10px 30px;
+  background-color: #333;
+  color: #fff;
+  opacity: 0.8;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 30px;
 }
-#navbar .logo{
-font-weight: 400;
+#navbar .logo {
+  font-weight: 400;
 }
-#navbar nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-
+#navbar nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
 }
-#navbar nav ul a{
-    color: #fff;
-padding: 10px 30px;
-margin: 0 5px;
+#navbar nav ul a {
+  color: #fff;
+  padding: 10px 30px;
+  margin: 0 5px;
 }
-#navbar nav ul a:hover{
-border-bottom: 2px solid var(--primary-color);
-
+#navbar nav ul a:hover {
+  border-bottom: 2px solid var(--primary-color);
 }
 /* navbar  */

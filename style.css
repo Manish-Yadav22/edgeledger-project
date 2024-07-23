@@ -286,3 +286,8 @@ img {
   opacity: 0.7;
 }
 /* cases section  */
+
+
+.team .team-wrapper img{
+  border-radius: 20px;
+}
